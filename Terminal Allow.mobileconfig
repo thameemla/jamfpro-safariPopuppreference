@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>PayloadContent</key>
+	<array>
+		<dict>
+			<key>PayloadDescription</key>
+			<string>Terminal Allow</string>
+			<key>PayloadDisplayName</key>
+			<string>Terminal Allow</string>
+			<key>PayloadIdentifier</key>
+			<string>EE784D9D-C281-4372-B198-FA4045FEAD6A</string>
+			<key>PayloadOrganization</key>
+			<string>Datalogics India</string>
+			<key>PayloadType</key>
+			<string>com.apple.TCC.configuration-profile-policy</string>
+			<key>PayloadUUID</key>
+			<string>E42A1913-2356-4D89-A41D-3D95E135ABC5</string>
+			<key>PayloadVersion</key>
+			<integer>1</integer>
+			<key>Services</key>
+			<dict>
+				<key>SystemPolicyAllFiles</key>
+				<array>
+					<dict>
+						<key>Authorization</key>
+						<string>Allow</string>
+						<key>CodeRequirement</key>
+						<string>identifier "com.apple.Terminal" and anchor apple</string>
+						<key>Comment</key>
+						<string></string>
+						<key>Identifier</key>
+						<string>com.apple.Terminal</string>
+						<key>IdentifierType</key>
+						<string>bundleID</string>
+					</dict>
+				</array>
+			</dict>
+		</dict>
+	</array>
+	<key>PayloadDescription</key>
+	<string>Terminal Allow</string>
+	<key>PayloadDisplayName</key>
+	<string>Terminal Allow</string>
+	<key>PayloadIdentifier</key>
+	<string>EE784D9D-C281-4372-B198-FA4045FEAD6A</string>
+	<key>PayloadOrganization</key>
+	<string>Datalogics India</string>
+	<key>PayloadScope</key>
+	<string>System</string>
+	<key>PayloadType</key>
+	<string>Configuration</string>
+	<key>PayloadUUID</key>
+	<string>5482F179-1097-4684-AEB2-D7CD4D26BF20</string>
+	<key>PayloadVersion</key>
+	<integer>1</integer>
+</dict>
+</plist>
